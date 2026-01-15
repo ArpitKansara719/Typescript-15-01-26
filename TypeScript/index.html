@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="script.js"></script>
+    <style>
+        ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 8px 0;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .checked {
+        text-decoration: line-through;
+        color: gray;
+    }
+    </style>
+</head>
+<body>
+    <h1>ToDO App</h1>
+
+        <section id="text-container">
+            <input type="text" id="inputText">
+            <input type="submit" value="Add Task" id="submit">
+        </section>
+
+        <section id="todo-list-container">
+            <ul id="todo-list">
+                <li> <input type="checkbox"> <span class="checked">Test</span> </li>
+                <li> <input type="checkbox"> <span class="checked">working..</span> </li>
+            </ul>
+        </section>
+
+</body>
+</html>
